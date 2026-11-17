@@ -573,6 +573,27 @@ footer {
   color: white;
 }
 
+.group-by-select {
+  padding: 5px 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-primary);
+  background-color: var(--surface);
+}
+
+.activity-group {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.activity-group h3 {
+  grid-column: 1 / -1;
+  color: var(--primary);
+  font-size: 1rem;
+}
+
 .time-filters {
   width: 100%;
 }
